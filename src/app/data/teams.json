@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Packers",
+    "nickname": "GB",
+    "display_name": "Green Bay",
+    "id": "123e4567-e89b-12d3-a456-426614174000"
+  },
+  {
+    "name": "Vikings",
+    "nickname": "MIN",
+    "display_name": "Minnesota",
+    "id": "123e4567-e89b-12d3-a456-426614174001"
+  },
+  {
+    "name": "Bears",
+    "nickname": "CHI",
+    "display_name": "Chicago",
+    "id": "123e4567-e89b-12d3-a456-426614174002"
+  },
+  {
+    "name": "Lions",
+    "nickname": "DET",
+    "display_name": "Detroit",
+    "id": "123e4567-e89b-12d3-a456-426614174003"
+  },
+  {
+    "name": "Cowboys",
+    "nickname": "DAL",
+    "display_name": "Dallas",
+    "id": "123e4567-e89b-12d3-a456-426614174004"
+  },
+  {
+    "name": "Giants",
+    "nickname": "NYG",
+    "display_name": "New York",
+    "id": "123e4567-e89b-12d3-a456-426614174005"
+  },
+  {
+    "name": "Eagles",
+    "nickname": "PHI",
+    "display_name": "Philadelphia",
+    "id": "123e4567-e89b-12d3-a456-426614174006"
+  },
+  {
+    "name": "Washington",
+    "nickname": "WAS",
+    "display_name": "Washington",
+    "id": "123e4567-e89b-12d3-a456-426614174007"
+  },
+  {
+    "name": "Saints",
+    "nickname": "NO",
+    "display_name": "New Orleans",
+    "id": "123e4567-e89b-12d3-a456-426614174008"
+  },
+  {
+    "name": "Falcons",
+    "nickname": "ATL",
+    "display_name": "Atlanta",
+    "id": "123e4567-e89b-12d3-a456-426614174009"
+  },
+  {
+    "name": "Panthers",
+    "nickname": "CAR",
+    "display_name": "Carolina",
+    "id": "123e4567-e89b-12d3-a456-426614174010"
+  },
+  {
+    "name": "Buccaneers",
+    "nickname": "TB",
+    "display_name": "Tampa Bay",
+    "id": "123e4567-e89b-12d3-a456-426614174011"
+  },
+  {
+    "name": "Seahawks",
+    "nickname": "SEA",
+    "display_name": "Seattle",
+    "id": "123e4567-e89b-12d3-a456-426614174012"
+  },
+  {
+    "name": "Rams",
+    "nickname": "LA",
+    "display_name": "Los Angeles",
+    "id": "123e4567-e89b-12d3-a456-426614174013"
+  },
+  {
+    "name": "Cardinals",
+    "nickname": "ARI",
+    "display_name": "Arizona",
+    "id": "123e4567-e89b-12d3-a456-426614174014"
+  },
+  {
+    "name": "49ers",
+    "nickname": "SF",
+    "display_name": "San Francisco",
+    "id": "123e4567-e89b-12d3-a456-426614174015"
+  },
+  {
+    "name": "Chargers",
+    "nickname": "LAC",
+    "display_name": "Los Angeles",
+    "id": "123e4567-e89b-12d3-a456-426614174016"
+  },
+  {
+    "name": "Raiders",
+    "nickname": "LV",
+    "display_name": "Las Vegas",
+    "id": "123e4567-e89b-12d3-a456-426614174017"
+  },
+  {
+    "name": "Chiefs",
+    "nickname": "KC",
+    "display_name": "Kansas City",
+    "id": "123e4567-e89b-12d3-a456-426614174018"
+  },
+  {
+    "name": "Titans",
+    "nickname": "TEN",
+    "display_name": "Tennessee",
+    "id": "123e4567-e89b-12d3-a456-426614174019"
+  },
+  {
+    "name": "Jaguars",
+    "nickname": "JAC",
+    "display_name": "Jacksonville",
+    "id": "123e4567-e89b-12d3-a456-426614174020"
+  },
+  {
+    "name": "Texans",
+    "nickname": "HOU",
+    "display_name": "Houston",
+    "id": "123e4567-e89b-12d3-a456-426614174021"
+  },
+  {
+    "name": "Colts",
+    "nickname": "IND",
+    "display_name": "Indianapolis",
+    "id": "123e4567-e89b-12d3-a456-426614174022"
+  },
+  {
+    "name": "Patriots",
+    "nickname": "NE",
+    "display_name": "New England",
+    "id": "123e4567-e89b-12d3-a456-426614174023"
+  },
+  {
+    "name": "Dolphins",
+    "nickname": "MIA",
+    "display_name": "Miami",
+    "id": "123e4567-e89b-12d3-a456-426614174024"
+  },
+  {
+    "name": "Bills",
+    "nickname": "BUF",
+    "display_name": "Buffalo",
+    "id": "123e4567-e89b-12d3-a456-426614174025"
+  },
+  {
+    "name": "Bengals",
+    "nickname": "CIN",
+    "display_name": "Cincinnati",
+    "id": "123e4567-e89b-12d3-a456-426614174026"
+  },
+  {
+    "name": "Ravens",
+    "nickname": "BAL",
+    "display_name": "Baltimore",
+    "id": "123e4567-e89b-12d3-a456-426614174027"
+  },
+  {
+    "name": "Steelers",
+    "nickname": "PIT",
+    "display_name": "Pittsburgh",
+    "id": "123e4567-e89b-12d3-a456-426614174028"
+  }
+]
