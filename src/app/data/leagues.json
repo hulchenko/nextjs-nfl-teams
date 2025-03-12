@@ -1,0 +1,22 @@
+[
+  {
+    "name": "NCAAB",
+    "description": "National Collegiate Athletic Association Basketball"
+  },
+  {
+    "name": "NCAAF",
+    "description": "National Collegiate Athletic Association Football"
+  },
+  {
+    "name": "NFL",
+    "description": "National Football League"
+  },
+  {
+    "name": "UFL",
+    "description": "United Football League"
+  },
+  {
+    "name": "USFL",
+    "description": "United States Football League"
+  }
+]
