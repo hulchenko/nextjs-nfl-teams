@@ -4,216 +4,278 @@
     "nickname": "GB",
     "display_name": "Green Bay Packers",
     "id": "123e4567-e89b-12d3-a456-426614174000",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "North"
   },
   {
     "name": "Vikings",
     "nickname": "MIN",
     "display_name": "Minnesota Vikings",
     "id": "123e4567-e89b-12d3-a456-426614174001",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "North"
   },
   {
     "name": "Bears",
     "nickname": "CHI",
     "display_name": "Chicago Bears",
     "id": "123e4567-e89b-12d3-a456-426614174002",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "North"
   },
   {
     "name": "Lions",
     "nickname": "DET",
     "display_name": "Detroit Lions",
     "id": "123e4567-e89b-12d3-a456-426614174003",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "North"
   },
   {
     "name": "Falcons",
     "nickname": "ATL",
     "display_name": "Atlanta Falcons",
     "id": "123e4567-e89b-12d3-a456-426614174004",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "South"
   },
   {
     "name": "Cowboys",
     "nickname": "DAL",
     "display_name": "Dallas Cowboys",
     "id": "123e4567-e89b-12d3-a456-426614174005",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "East"
   },
   {
     "name": "Giants",
     "nickname": "NYG",
     "display_name": "New York Giants",
     "id": "123e4567-e89b-12d3-a456-426614174006",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "East"
   },
   {
     "name": "Eagles",
     "nickname": "PHI",
     "display_name": "Philadelphia Eagles",
     "id": "123e4567-e89b-12d3-a456-426614174007",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "East"
   },
   {
     "name": "Washington Commanders",
     "nickname": "WAS",
     "display_name": "Washington Commanders",
     "id": "123e4567-e89b-12d3-a456-426614174008",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "East"
   },
   {
     "name": "Rams",
     "nickname": "LA",
     "display_name": "Los Angeles Rams",
     "id": "123e4567-e89b-12d3-a456-426614174009",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "West"
   },
   {
     "name": "49ers",
     "nickname": "SF",
     "display_name": "San Francisco 49ers",
     "id": "123e4567-e89b-12d3-a456-426614174010",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "West"
   },
   {
     "name": "Seahawks",
     "nickname": "SEA",
     "display_name": "Seattle Seahawks",
     "id": "123e4567-e89b-12d3-a456-426614174011",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "West"
   },
   {
     "name": "Cardinals",
     "nickname": "ARI",
     "display_name": "Arizona Cardinals",
     "id": "123e4567-e89b-12d3-a456-426614174012",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "West"
   },
   {
     "name": "Saints",
     "nickname": "NO",
     "display_name": "New Orleans Saints",
     "id": "123e4567-e89b-12d3-a456-426614174013",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "South"
   },
   {
     "name": "Buccaneers",
     "nickname": "TB",
     "display_name": "Tampa Bay Buccaneers",
     "id": "123e4567-e89b-12d3-a456-426614174014",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "South"
   },
   {
     "name": "Panthers",
     "nickname": "CAR",
     "display_name": "Carolina Panthers",
     "id": "123e4567-e89b-12d3-a456-426614174015",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "NFC",
+    "division": "South"
   },
   {
     "name": "Jaguars",
     "nickname": "JAX",
     "display_name": "Jacksonville Jaguars",
     "id": "123e4567-e89b-12d3-a456-426614174016",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "South"
   },
   {
     "name": "Titans",
     "nickname": "TEN",
     "display_name": "Tennessee Titans",
     "id": "123e4567-e89b-12d3-a456-426614174017",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "South"
   },
   {
     "name": "Bengals",
     "nickname": "CIN",
     "display_name": "Cincinnati Bengals",
     "id": "123e4567-e89b-12d3-a456-426614174018",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "North"
   },
   {
     "name": "Browns",
     "nickname": "CLE",
     "display_name": "Cleveland Browns",
     "id": "123e4567-e89b-12d3-a456-426614174019",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "North"
   },
   {
     "name": "Ravens",
     "nickname": "BAL",
     "display_name": "Baltimore Ravens",
     "id": "123e4567-e89b-12d3-a456-426614174020",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "North"
   },
   {
     "name": "Steelers",
     "nickname": "PIT",
     "display_name": "Pittsburgh Steelers",
     "id": "123e4567-e89b-12d3-a456-426614174021",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "North"
   },
   {
     "name": "Patriots",
     "nickname": "NE",
     "display_name": "New England Patriots",
     "id": "123e4567-e89b-12d3-a456-426614174022",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "East"
   },
   {
     "name": "Jets",
     "nickname": "NYJ",
     "display_name": "New York Jets",
     "id": "123e4567-e89b-12d3-a456-426614174023",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "East"
   },
   {
     "name": "Dolphins",
     "nickname": "MIA",
     "display_name": "Miami Dolphins",
     "id": "123e4567-e89b-12d3-a456-426614174024",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "East"
   },
   {
     "name": "Chargers",
     "nickname": "LAC",
     "display_name": "Los Angeles Chargers",
     "id": "123e4567-e89b-12d3-a456-426614174025",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "West"
   },
   {
     "name": "Colts",
     "nickname": "IND",
     "display_name": "Indianapolis Colts",
     "id": "123e4567-e89b-12d3-a456-426614174026",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "South"
   },
   {
     "name": "Chiefs",
     "nickname": "KC",
     "display_name": "Kansas City Chiefs",
     "id": "123e4567-e89b-12d3-a456-426614174027",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "West"
   },
   {
     "name": "Raiders",
     "nickname": "LV",
     "display_name": "Las Vegas Raiders",
     "id": "123e4567-e89b-12d3-a456-426614174028",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "West"
   },
   {
     "name": "Texans",
     "nickname": "HOU",
     "display_name": "Houston Texans",
     "id": "123e4567-e89b-12d3-a456-426614174029",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "South"
   },
   {
     "name": "Bills",
     "nickname": "BUF",
     "display_name": "Buffalo Bills",
     "id": "123e4567-e89b-12d3-a456-426614174030",
-    "league": "NFL"
+    "league": "NFL",
+    "conference": "AFC",
+    "division": "East"
   }
 ]

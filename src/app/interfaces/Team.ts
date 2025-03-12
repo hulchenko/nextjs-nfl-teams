@@ -6,4 +6,6 @@ export interface Team {
   display_name: string;
   id: string;
   league: Leagues;
+  conference: string;
+  division: string;
 }
