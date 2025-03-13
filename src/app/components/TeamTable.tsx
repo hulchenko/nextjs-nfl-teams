@@ -56,7 +56,7 @@ export const TeamTable = () => {
   );
 
   return (
-    <TableContainer component={Paper} sx={{ height: "70vh", width: "80%", margin: "auto", position: "relative" }}>
+    <TableContainer component={Paper} sx={{ height: "70vh", width: "80%", margin: "auto", position: "relative", marginTop: "5rem" }}>
       <Table size="small" stickyHeader>
         <TeamTableHead sortDir={sortDir} sortBy={sortBy} sortHandler={sortHandler} />
         <TableBody>

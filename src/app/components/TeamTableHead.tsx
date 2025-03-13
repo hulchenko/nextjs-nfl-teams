@@ -18,7 +18,7 @@ export const TeamTableHead = ({
   const SortLabel = ({ label }: { label: QueryOptions }) => {
     return (
       <TableSortLabel
-        style={sortBy === label ? { fontWeight: "bold", fontSize: "1rem" } : {}}
+        sx={sortBy === label ? { fontWeight: "bold", fontSize: "1rem" } : {}}
         active={sortBy === label}
         direction={sortBy === label ? sortDir : SortDirection.ASC}
         onClick={(e) => sortHandler(e.currentTarget.textContent as QueryOptions)}
