@@ -6,6 +6,7 @@ import { Footer } from "./components/Footer";
 
 // https://mui.com/material-ui/integrations/nextjs/?srsltid=AfmBOopLpjZeoTQZzkUaZ4T2evwKStsYk1ZiThkQh7lKUNmEjYnKsr10
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
+import { LeagueProvider } from "./context/useLeague";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,9 +32,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <AppRouterCacheProvider>
-          <Header />
-          {children}
-          <Footer />
+          <LeagueProvider>
+            <Header />
+            {children}
+            <Footer />
+          </LeagueProvider>
         </AppRouterCacheProvider>
       </body>
     </html>

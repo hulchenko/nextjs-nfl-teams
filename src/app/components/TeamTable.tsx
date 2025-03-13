@@ -5,12 +5,10 @@ import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
-import TableSortLabel from "@mui/material/TableSortLabel";
 import { useCallback, useState } from "react";
 import useSWR from "swr";
-import { Leagues } from "../interfaces/Leagues";
+import { useLeague } from "../context/useLeague";
 import { QueryOptions } from "../interfaces/QueryOptions";
 import { SortDirection } from "../interfaces/SortDirection";
 import { Team } from "../interfaces/Team";
@@ -22,7 +20,7 @@ import { TeamTableHead } from "./TeamTableHead";
 const API_KEY = process.env.NEXT_PUBLIC_API_KEY || ""; // fallback value in case it's missing
 
 export const TeamTable = () => {
-  const [league, setLeague] = useState<Leagues>(Leagues.NFL);
+  const { league = "" } = useLeague();
   const [sortBy, setSortBy] = useState(QueryOptions.Name);
   const [sortDir, setSortDir] = useState(SortDirection.ASC);
 
