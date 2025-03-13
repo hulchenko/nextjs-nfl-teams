@@ -6,6 +6,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 import leagues from "@/app/data/leagues.json";
 import teams from "@/app/data/teams.json";
+import { SortDirection } from "@/app/interfaces/SortDirection";
 
 const VALID_API_KEY = process.env.API_KEY;
 
@@ -24,8 +25,11 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ leag
   // query
   const searchParams = req.nextUrl.searchParams;
   const incSortBy = searchParams.get("sort_by") as QueryOptions;
+  const incDir = searchParams.get("dir") as SortDirection;
   const sortParams = Object.values(QueryOptions);
-  const sortBy = sortParams.includes(incSortBy) ? incSortBy : QueryOptions.Name; // if incoming param is empty/doesn't exist -> default to "name"
+  const dirParams = Object.values(SortDirection);
+  const sortBy = sortParams.includes(incSortBy) ? incSortBy : QueryOptions.Name; // if incoming sort_by is empty/doesn't exist -> default to "name"
+  const direction = dirParams.includes(incDir) ? incDir : SortDirection.ASC; // if incoming dir is empty/doesn't exist -> default to "asc"
 
   // request validation
   if (!league) {
@@ -40,7 +44,7 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ leag
   }
 
   const teamsInLeague = (teams as Team[]).filter((t) => t.league === league);
-  const sortedData = sort(teamsInLeague, sortBy);
+  const sortedData = sort(teamsInLeague, sortBy, direction);
 
-  return NextResponse.json({ data: sortedData }, { status: 200 });
+  return NextResponse.json(sortedData, { status: 200 });
 }
