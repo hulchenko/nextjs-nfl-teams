@@ -36,7 +36,7 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ leag
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
   if (!leagueNames.includes(league)) {
-    return NextResponse.json({ error: `League with the name ${league} does not exist.` }, { status: 404 });
+    return NextResponse.json({ error: `League with the name "${league}" does not exist.` }, { status: 404 });
   }
   if (league !== Leagues.NFL) {
     // restrict other leagues, since customer explicitly asked for NFL league
