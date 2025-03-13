@@ -6,8 +6,8 @@ import Typography from "@mui/material/Typography";
 export const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <Box sx={{ flexGrow: 1, position: "absolute", bottom: 6, width: "100%", textAlign: "center" }}>
-      <AppBar position="static" color="transparent">
+    <Box sx={{ flexGrow: 1, position: "absolute", bottom: 0, width: "100%", textAlign: "center" }}>
+      <AppBar position="static" sx={{ background: "var(--sport)" }}>
         <Toolbar>
           <Typography variant="caption" component="div" sx={{ flexGrow: 1 }}>
             {year}

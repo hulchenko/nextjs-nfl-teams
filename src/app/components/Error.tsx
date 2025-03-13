@@ -1,5 +1,5 @@
 const styles = {
-  color: "red",
+  color: "salmon",
   marginTop: "15rem",
   display: "flex",
   width: "100%",
