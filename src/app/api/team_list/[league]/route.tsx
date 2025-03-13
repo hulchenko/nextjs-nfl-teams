@@ -8,7 +8,7 @@ import leagues from "@/app/data/leagues.json";
 import teams from "@/app/data/teams.json";
 import { SortDirection } from "@/app/interfaces/SortDirection";
 
-const VALID_API_KEY = process.env.API_KEY;
+const VALID_API_KEY = process.env.API_KEY || "";
 
 const leagueNames = leagues.map((l) => l.name as Leagues);
 
