@@ -9,3 +9,8 @@ export const sort = (arr: Team[], prop: QueryOptions, direction: SortDirection =
     return arr.sort((a, b) => (a[prop] < b[prop] ? 1 : -1));
   }
 };
+
+export const capitalize = (str: string) => {
+  if (!str && !str.length) return "";
+  return str[0].toUpperCase() + str.slice(1);
+};
